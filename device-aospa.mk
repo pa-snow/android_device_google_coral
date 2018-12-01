@@ -14,3 +14,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt Kernel
 $(call inherit-product, device/google/coral-kernel/kernel.mk)
+
+# RCS
+PRODUCT_PACKAGES += \
+    PresencePolling \
+    RcsService

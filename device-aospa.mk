@@ -117,7 +117,8 @@ PRODUCT_PACKAGES += \
     AOSPAFloralFrameworksOverlay \
     AOSPAFloralSettingsOverlay \
     AOSPAFloralSettingsProviderOverlay \
-    AOSPAFloralSystemUIOverlay
+    AOSPAFloralSystemUIOverlay \
+    AOSPAFloralTelephonyOverlay
 
 # Platform
 TARGET_BOARD_PLATFORM := msmnile

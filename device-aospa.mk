@@ -110,7 +110,8 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    AOSPAFloralFrameworksOverlay
+    AOSPAFloralFrameworksOverlay \
+    AOSPAFloralSystemUIOverlay
 
 # Power
 PRODUCT_PACKAGES += \

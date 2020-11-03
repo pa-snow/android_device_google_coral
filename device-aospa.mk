@@ -111,6 +111,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 PRODUCT_PACKAGES += \
     AOSPAFloralFrameworksOverlay \
+    AOSPAFloralSettingsOverlay \
     AOSPAFloralSettingsProviderOverlay \
     AOSPAFloralSystemUIOverlay
 

@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4.vendor:64 \
     libcamera2ndk_vendor
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
+    ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
+
 # CHRE
 PRODUCT_PACKAGES += \
     chre

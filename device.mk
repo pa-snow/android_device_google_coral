@@ -897,16 +897,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.recovery.device.rc:recovery/root/init.recovery.coral.rc \
     $(LOCAL_PATH)/init.recovery.device.rc:recovery/root/init.recovery.flame.rc
 
-QTI_TELEPHONY_UTILS := qti-telephony-utils
-QTI_TELEPHONY_UTILS += qti_telephony_utils.xml
-PRODUCT_PACKAGES += $(QTI_TELEPHONY_UTILS)
-
-HIDL_WRAPPER := qti-telephony-hidl-wrapper
-HIDL_WRAPPER += qti_telephony_hidl_wrapper.xml
-HIDL_WRAPPER += qti-telephony-hidl-wrapper-prd
-HIDL_WRAPPER += qti_telephony_hidl_wrapper_prd.xml
-PRODUCT_PACKAGES += $(HIDL_WRAPPER)
-
 # Increment the SVN for any official public releases
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vendor.build.svn=65

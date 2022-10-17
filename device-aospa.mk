@@ -155,6 +155,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lib_sensor_listener:64
 
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    packages/modules/Bluetooth/android/app
+
 # Sound trigger
 PRODUCT_PACKAGES += \
     sound_trigger.primary.msmnile

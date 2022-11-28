@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor:64 \
     android.system.net.netd@1.1.vendor:64
 
+# NFC
+$(call inherit-product, hardware/st/nfc/nfc_vendor_product.mk)
+TARGET_USES_ST_AIDL_NFC := true
+
 # Nos
 PRODUCT_PACKAGES += \
     libnos:64 \

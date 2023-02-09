@@ -119,6 +119,9 @@ PRODUCT_PACKAGES += \
     AOSPAFloralSettingsProviderOverlay \
     AOSPAFloralSystemUIOverlay
 
+# Platform
+TARGET_BOARD_PLATFORM := msmnile
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-V1-ndk.vendor

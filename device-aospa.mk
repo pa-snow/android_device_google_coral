@@ -132,9 +132,6 @@ TARGET_BOARD_PLATFORM := msmnile
 PRODUCT_PACKAGES += \
     android.hardware.power-V1-ndk.vendor
 
-# Prebuilt Kernel
-$(call inherit-product, device/google/coral-kernel/kernel.mk)
-
 # Properties
 TARGET_VENDOR_PROP := device/google/coral/vendor.prop
 

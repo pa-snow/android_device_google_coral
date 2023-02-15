@@ -19,14 +19,14 @@ LOCAL_PATH := device/google/coral
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
 PRODUCT_SOONG_NAMESPACES += \
+    device/google/coral \
     hardware/google/av \
     hardware/google/camera \
     hardware/google/interfaces \
     hardware/google/pixel \
-    device/google/coral \
-    hardware/qcom/sm8150/display \
-    hardware/qcom/sm8150/data/ipacfg-mgr \
-    hardware/qcom/sm8150/gps \
+    hardware/qcom/display \
+    hardware/qcom/data/ipacfg-mgr \
+    hardware/qcom/gps
 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true

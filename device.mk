@@ -66,7 +66,14 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Enforce native interfaces of product partition as VNDK
 PRODUCT_PRODUCT_VNDK_VERSION := current
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+# Overlay
+PRODUCT_PACKAGES += \
+    FloralFrameworksOverlay \
+    FloralNfcOverlay \
+    FloralSettingsLibOverlay \
+    FloralSettingsOverlay \
+    FloralSystemUIOverlay \
+    FloralTelephonyOverlay
 
 #
 PRODUCT_COPY_FILES += \
